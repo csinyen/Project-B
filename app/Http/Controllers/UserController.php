@@ -10,6 +10,7 @@ class UserController extends Controller
 		return 'hello world';
 	}
 	public function login() {
+	return view('frontend.login');
 	}
 	
 }

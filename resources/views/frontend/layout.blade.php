@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -15,11 +13,8 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('frontend/css/half-slider.css') }} " rel="stylesheet">
-
   </head>
-
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -38,7 +33,7 @@
               <a class="nav-link" href="{{ route('user.login') }}"> Login </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('user.register') }}">Register</a>
+              <a class="nav-link" href="{{ route('user.register') }}">Register</a>
             </li>
           </ul>
         </div>
